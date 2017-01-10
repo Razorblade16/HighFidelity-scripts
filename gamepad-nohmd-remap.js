@@ -2,7 +2,7 @@
 
 // Created by Ludvig Böklin on 2017-01-02.
 //
-//  Remaps the inputs of the XBox 360 controller so that it better resembles a 
+//  Remaps the inputs of the gamepad controller so that it better resembles a 
 //  control scheme you might find in a typical, non-VR game.
 //
 //  Distributed under the AGPLv3 license. Use and modify to your hearts desire
@@ -10,7 +10,7 @@
 
 (function() { // BEGIN LOCAL_SCOPE
 
-    var MAPPING_NAME = "bok.sudoreboot.controllers.xbox360-nohmd";
+    var MAPPING_NAME = "bok.sudoreboot.controllers.gamepad-nohmd";
 
     var mapping = Controller.newMapping(MAPPING_NAME);
 
