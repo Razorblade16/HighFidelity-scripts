@@ -14,7 +14,8 @@
 
     var mapping = Controller.newMapping(MAPPING_NAME);
 
-    // Left stick axes
+    // Left stick
+    // Failed attempt at making things interesting when flying.. Leaving for historical records and to spark the imagination of younger generations.
     //mapping.from(Controller.Hardware.GamePad.LX).deadZone(0.35).when(Controller.Hardware.Application.Grounded).to(Controller.Actions.TranslateX);
     //mapping.from(Controller.Hardware.GamePad.LX).deadZone(0.35).to(Controller.Actions.Roll); // I'm a peacock and you gotta let me fly, but no
     mapping.from(Controller.Hardware.GamePad.LX).deadZone(0.35).to(Controller.Actions.TranslateX);
